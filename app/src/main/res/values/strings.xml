@@ -13,4 +13,5 @@
     <string name="starter">Entrees</string>
     <string name="main">Plats</string>
     <string name="end">Desserts</string>
+    <string name="menu1">Test</string>
 </resources>
