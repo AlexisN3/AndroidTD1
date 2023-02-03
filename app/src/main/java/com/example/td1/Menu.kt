@@ -64,7 +64,7 @@ class Menu : AppCompatActivity() {
     }
     private fun showDatas(category: com.example.td1.network.Category) {
         binding.recyclerView.layoutManager = LinearLayoutManager(this)
-        binding.recyclerView.adapter = CustomAdapter(listOf("1", "2", "3")) {
+        binding.recyclerView.adapter = CustomAdapter(category.items) {
             val intent = Intent(this, DetailActivity::class.java)
             startActivity(intent)
         }
